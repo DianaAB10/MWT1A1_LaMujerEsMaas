@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+*{
+    padding: 0px;
+    margin: 0;
+}
+
+#navegador{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(172, 99, 185);
+    height: 45px;
+}
+
+.item1{
+    border: 2px solid none;
+    background-color: rgba(193, 67, 218, 0.87);
+    height: 30px;
+    width: 200px;
+    font-family: 'Merienda', cursive;
+    font-size: 21px;
+    font-weight: 40px;
+}
+
+.item2{
+    border: 1px solid none;
+    height: 40px;
+    width: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    
+}
+.item3{
+    border: 1px solid none;
+    height: 40px;
+    width: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+.item4{
+    border: 1px solid none;
+    height: 40px;
+    width: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+.item5{
+    border: 1px solid none;
+    height: 40px;
+    width: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+
+.item6{
+    border: 1px solid none;
+    height: 40px;
+    width: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+}
+.item7{
+    border: 1px solid rgb(252, 252, 252);
+    background-color: white;
+    height: 30px;
+    width: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+    border-radius: 15px;
+}
+.item8{
+    border: 1px solid none;
+    height: 40px;
+    width: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 22px;
+
+}
+ 
+main{
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(189, 149, 196);
+    height: 800px;
+}
+
+
+#inicio{
+    display: grid;
+    grid-template-columns: 48% 48%;
+    grid-template-rows: 200px 180px;
+    grid-gap: 30px;
+}
+
+
+#img{
+    top: 100px;
+    padding: 5px;
+    margin: 40px;
+    width: 150px;
+    height: 150px;
+    bottom: 25px;
+}
+
+#img1{
+    margin: 10px;
+    width: 10%;
+    height: 18%;
+    left: 10px;
+    top: 100px;
+}
+
+#img2{
+    padding: 10px;
+    margin: 40px;
+    width: 200px;
+    height: 200px;
+    top: 30px;  
+    bottom: 25px;
+    right: 30px;
+}
+
+
+#parrafo1{
+    padding: 0px;
+    margin: 50px;
+    width: 370px;
+    height: 500px;
+    position: absolute;
+    right: 700px;
+    top: 80px;
+}
+
+#parrafo2{
+    padding: 0px;
+    margin: 45px;
+    width: 350px;
+    height: 400px;
+    position: absolute;
+    top: 330px;
+    right: 750px;
+}
+
+#parrafo3{
+    padding: 0px;
+    margin: 45px;
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    top: 250px;
+    right: 60px;
+}
+
+
+#item9{
+    background-color: rgb(211, 174, 127);
+    border: 2px solid rgb(146, 112, 48);
+    grid-row-start: 1;
+    grid-row-end: 2;
+    top: 50px;
+    border-radius: 10px;
+}
+
+#item11{
+    border: 2px solid rgb(146, 112, 48);
+    background-color: rgb(211, 174, 127);
+    grid-row-start: 1;
+    grid-row-end: 3;
+    border-radius: 10px;
+}
+
+
+#item10{
+    border: 2px solid rgb(146, 112, 48);
+    background-color: rgb(211, 174, 127);
+    grid-row-start: 2;
+    grid-row-end: 4;
+    border-radius: 10px;
+}
+
+#item12{
+    border: 2px solid rgb(146, 112, 48);
+    background-color: rgb(211, 174, 127);
+    grid-row-start: 2;
+    grid-row-end: 4;
+    position: relative;
+}
+
+footer{
+    background-color: rgb(230, 202, 235);
+    font-family: 'Merienda', cursive;
+}
+
+
