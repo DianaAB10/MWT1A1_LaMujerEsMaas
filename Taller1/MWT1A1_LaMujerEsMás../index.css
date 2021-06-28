@@ -3,6 +3,7 @@
 *{
     padding: 0px;
     margin: 0;
+    box-sizing: border-box;
 }
 
 #navegador{
@@ -88,9 +89,9 @@ main{
 
 #inicio{
     display: grid;
-    grid-template-columns: 48% 48%;
-    grid-template-rows: 200px 180px;
+    grid-template-columns: 50% 50%;
     grid-gap: 30px;
+    padding: 20px;
 }
 
 
@@ -179,13 +180,6 @@ main{
     border-radius: 10px;
 }
 
-#item12{
-    border: 2px solid rgb(146, 112, 48);
-    background-color: rgb(211, 174, 127);
-    grid-row-start: 2;
-    grid-row-end: 4;
-    position: relative;
-}
 
 footer{
     background-color: rgb(230, 202, 235);
